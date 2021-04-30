@@ -1,0 +1,28 @@
+div#about-column-1 {
+  padding:0px 2% 0px 17%;
+}
+
+div#about-column-2 {
+  padding:0px 17% 0px 2%;
+}
+
+div#header-wrapper {
+  height:180px;
+}
+
+div#about-me-info {
+  position: relative;
+  top:-50px;
+}
+
+div#logo-container img {
+  width:180px;
+}
+
+div#header-nav {
+  top:-150px;
+}
+
+div.columns-2 {
+  margin-bottom: 50px;
+}

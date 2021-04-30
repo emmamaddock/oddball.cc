@@ -1,0 +1,198 @@
+html,body#resume {
+  background-color:#fff;
+}
+
+div.resume-section {
+  position:relative;
+  width:100%;
+  display:inline-block;
+  margin-bottom:20px;
+}
+
+div.resume-section h1 {
+  font-family: "FuturaPT Light";
+  font-size:50px;
+  font-style: normal;
+  text-align:left;
+  margin-top:20px;
+  margin-bottom:10px;
+  color:#222;
+  text-shadow: none;
+}
+
+div.resume-section h2 {
+  text-align:left;
+  color:#2d333d;
+  margin-bottom:10px;
+}
+
+img#technical-skills {
+  position:relative;
+  right:25%;
+}
+
+img#soft-skills {
+  position:relative;
+  left:-20%;
+}
+
+h3.resume {
+  color:#fff;
+}
+
+div#resume-logo-container {
+  margin:auto;
+  position:relative;
+  top:20px; left: 20px;
+}
+
+div#resume-logo-container-2 {
+  margin:auto;
+  position:relative;
+  top:-5px; left:20px;
+}
+
+div#resume-container-3 {
+  margin:auto;
+  position:relative;
+  top:50px;
+  right:30px;
+  width:100%;
+  text-align:right;
+}
+
+div#resume-container-3 h3 {
+  font-size:30px;
+  text-shadow: 2px 2px #222;
+}
+
+div#resume-line h3 {
+  margin:0;
+}
+div#resume-line img {
+  display:inline-block;
+  vertical-align: baseline;
+}
+
+div#resume-logo-container h1 {
+  font-size: 80px;
+  text-align:left;
+  color:#fff;
+  line-height: 60px;
+  margin-bottom:none;
+  margin:auto;
+  text-shadow: 4px 4px #222;
+}
+
+
+a#title {
+  text-decoration: none;
+}
+
+div#resume-logo-container-2 h2 {
+  font-size: 48px;
+  text-align:left;
+  color:#fff;
+  line-height: 40px;
+  margin-top:10px;
+  text-shadow: 2px 2px #222;
+}
+
+div#resume-info-line-text {
+  position:relative;
+  right:-150px;
+}
+
+div#resume-info-line-image {
+  position:relative;
+  right:-150px;
+  text-align:left;
+}
+
+
+div#header-wrapper {
+  display:block;
+  background-color:transparent;
+  height:250px;
+  width:100%;
+}
+
+div#header-inner-wrapper {
+  display:block;
+  background-color:#f4bf42;
+  top:30px; left:30px;
+  height:5em;
+  z-index:10;
+}
+
+div.header-wrapper {
+  position:absolute;
+  margin-left:20px;
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+div#header-nav {
+  display:block;
+  position:relative;
+  width:100%;
+  margin:auto;
+  top:10px; right:20px;
+}
+
+div#header-nav ul {
+  list-style:none;
+  text-align:center;
+  display:block;
+  background-color: #fff;
+  border: 2px solid #222;
+}
+
+div#header-nav li {
+  display:inline-block;
+}
+
+div#header-nav li a {
+  display:block;
+  color:#222;
+  padding:14px;
+  text-decoration:none;
+}
+
+div#header-nav li a:hover {
+  background-color:transparent;
+  text-decoration: underline;
+  text-decoration-color:#222;
+}
+
+div#footer-container {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  margin-top:50px;
+}
+
+div#footer-wrapper {
+  display:block;
+  background-color:#5ca6db;
+  margin-top:50px;
+  height:4em;
+  z-index:100;
+}
+
+div#footer-inner-wrapper {
+  display:block;
+  background-color:#fff;
+  top:-20px; left:-50px;
+  border: 2px solid #222;
+  height:3.5em;
+  z-index:10;
+}
+
+div#footer-content {
+  padding-top:3.5px;
+  width:100%;
+  text-align:center;
+  margin:auto;
+}
