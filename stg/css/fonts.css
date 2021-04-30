@@ -1,0 +1,199 @@
+@font-face{
+	font-family:"FuturaPT";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTBook.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTBook.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTBookOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTBookOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Light";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTLight.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTLight.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Light";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTLightOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTLightOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Medium";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTMedium.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTMedium.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Medium";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTMediumOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTMediumOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Demi";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTDemi.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTDemi.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Demi";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTDemiOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTDemiOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Bold";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTBold.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTBold.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Bold";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTBoldOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTBoldOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Extra Bold";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTExtraBold.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTExtraBold.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Extra Bold";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTExtraBoldOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTExtraBoldOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Heavy";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTHeavy.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTHeavy.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Heavy";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTHeavyOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTHeavyOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed Bold";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTCondBold.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondBold.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed Bold";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTCondBoldOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondBoldOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTCondBook.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondBook.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTCondBookOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondBookOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed Extra Bold";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTCondExtraBold.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondExtraBold.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed Extra Bold";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTCondExtraBoldOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondExtraBoldOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed Medium";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/Futura/FuturaPTCondExtraBold.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondExtraBold.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"FuturaPT Condensed Medium";
+	font-weight:oblique;
+	font-style:oblique;
+	src: url("../../resources/fonts/Futura/FuturaPTCondMediumOblique.otf");
+	src: url("../../resources/fonts/Futura/FuturaPTCondMediumOblique.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"ProximaSV";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/proxima_sv/ProximaNova-Regular.otf");
+	src: url("../../resources/fonts/proxima_sv/ProximaNova-Regular.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"ProximaSV Thin";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/proxima_sv/ProximaNova-Thin.otf");
+	src: url("../../resources/fonts/proxima_sv/ProximaNova-Thin.otf") format("opentype");
+}
+
+@font-face{
+	font-family:"ProximaSV Bold";
+	font-weight:normal;
+	font-style:normal;
+	src: url("../../resources/fonts/proxima_sv/ProximaNova-Semibold.otf");
+	src: url("../../resources/fonts/proxima_sv/ProximaNova-Semibold.otf") format("opentype");
+}

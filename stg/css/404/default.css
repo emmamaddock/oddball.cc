@@ -1,0 +1,9 @@
+h1#four-oh-four {
+  font-size:120px;
+  color:#fff;
+  text-shadow: 4px 4px #222;
+}
+
+h1#four-oh-four::after {
+  content: "";
+}
