@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="./resources/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/main_default.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/construction/default.css">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
     <link rel="prefetch" href="./resources/fonts/Futura/FuturaPTBook.otf" as="font">
@@ -22,8 +23,8 @@
 <body>
 
   <section id="construction">
-    <img src="./resources/images/logo/logo.png">
-    <p>Under construction, see you soon!</p>
+    <img id="cons-logo" src="./resources/images/logo/logo.png">
+    <p>Under construction, exciting things coming soon!</p>
   </section>
 
 </body>
