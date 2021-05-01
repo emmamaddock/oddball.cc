@@ -1,41 +1,31 @@
-<?php
-include('elmco/includes/layout/header_html.php');
-?>
-
-<?php
-
-//$query = 'SELECT image_path FROM home_slides;';
-
-//$result = db_query($connection,$query);
-//$slides = db_all_array($result);
-
-//print_r2($slides);
-
-//$urls = array();
-
-//foreach ($slides as $slide) {
-  //foreach ($slide as $slider) {
-  //  $urls[] = $slider;
-//  }
-//}
-
- ?>
-
-
+<!DOCTYPE html>
+<html lan="en">
 <head>
 
-  <title>Oddball | Home</title>
+  <title>Oddball | Under Construction</title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="./resources/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/main_default.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/construction/default.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+    <link rel="prefetch" href="./resources/fonts/Futura/FuturaPTBook.otf" as="font">
+    <link rel="prefetch" href="./resources/fonts/proxima_sv/ProximaNova-Regular.otf" as="font">
+    <link rel="prefetch" href="./resources/fonts/proxima_sv/ProximaNova-Thin.otf" as="font">
+
+    <script type="text/javascript" src="./resources/scripts/jquery-3.3.1.js"></script>
 
 </head>
 
 <body>
 
-  <p>Under Construction.</p>
-  
+  <section id="construction">
+    <img id="cons-logo" src="./resources/images/logo/logo.png">
+    <p>Under construction, exciting things coming soon!</p>
+  </section>
+
 </body>
 </html>
-
-<?php
-//db_disconnect($connection);
- ?>

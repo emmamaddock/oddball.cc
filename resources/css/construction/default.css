@@ -1,0 +1,15 @@
+section#construction {
+  position:relative;
+  top:200px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
+
+img#cons-logo {
+  width:150px;
+  margin-left:30px;
+  margin-bottom:10px;
+}

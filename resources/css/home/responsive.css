@@ -1,0 +1,36 @@
+@media screen and (max-width:1200px) {
+
+  html,body {
+    background-position: 50% 50%;
+  }
+
+  div.slide-info {
+    height:60px;
+    width:60%;
+  }
+
+  div.slide-info h2 {
+    font-size:2vw;
+    margin-top:auto;
+    margin-bottom: auto;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  div.slide-info {
+    height:60px;
+    width:100%;
+    top:88%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  div.slide-info h2 {
+    font-size:3vw;
+    margin-top:auto;
+    margin-bottom: auto;
+  }
+
+}

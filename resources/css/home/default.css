@@ -1,0 +1,62 @@
+html,body {
+  background-image:url('/elmco/resources/images/home_slideshow/robyn_light.jpg') no-repeat center center fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+  position:relative;
+}
+
+/* Slideshow container */
+header#special-header {
+  z-index:99999;
+  position:absolute;
+  top:0;
+}
+
+div.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  top:-200px;
+  z-index:5;
+}
+
+.header-item {
+  color:#fff;
+}
+
+div.slide-info {
+  background-color:#fff;
+  position:fixed;
+  left:4%; top:88%;
+  display:table;
+  z-index:9999;
+  height:60px;
+  width:30%;
+  text-align:center;
+}
+
+div.slide-info h2 {
+  font-size:1.1vw;
+  text-transform:uppercase;
+  font-style:normal;
+  letter-spacing: 0.3em;
+  display:table-cell;
+  vertical-align:middle;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+div.slide-info h2::after {
+  content:"";
+}
+
+span#gallery-type{
+  color:#7f7e7e;
+}
+
+span#sub-gallery{
+  color:#222;
+}
+
+div#header-nav li a:hover {
+  background-color:#e6e0d4;
+}
