@@ -21,7 +21,10 @@
 
 <body>
 
-  <p>Under Construction.</p>
+  <section id="construction">
+    <img src="./resources/images/logo.png">
+    <p>Under construction, see you soon!</p>
+  </section>
 
 </body>
 </html>
