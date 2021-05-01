@@ -22,7 +22,7 @@
 <body>
 
   <section id="construction">
-    <img src="./resources/images/logo.png">
+    <img src="./resources/images/logo/logo.png">
     <p>Under construction, see you soon!</p>
   </section>
 
