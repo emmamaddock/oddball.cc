@@ -14,6 +14,12 @@ img#cons-logo {
   margin-bottom:10px;
 }
 
+p#socials {
+  background-color:#c9cbf3;
+  padding:20px;
+  border:4px dashed #F3F0C9;
+}
+
 p#socials a {
   padding:10px;
 }
