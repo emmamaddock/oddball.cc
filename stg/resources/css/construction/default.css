@@ -13,3 +13,10 @@ img#cons-logo {
   margin-left:30px;
   margin-bottom:10px;
 }
+
+section#socials {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
