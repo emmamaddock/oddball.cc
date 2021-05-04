@@ -14,9 +14,6 @@ img#cons-logo {
   margin-bottom:10px;
 }
 
-section#socials {
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:center;
+p#socials a {
+  padding:10px;
 }
