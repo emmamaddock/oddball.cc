@@ -19,13 +19,28 @@ ul.link-list {
   justify-content:flex-start;
 }
 
+ul.link-list a {
+  color:#11144e;
+  overflow: hidden;
+  background:linear-gradient(to right,#c9f3f0,#c9f3f0 50%, #11144e 50%);
+  background-clip:text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-size:200% 100%;
+  background-position: 100%;
+  transition:background-position 275ms ease;
+}
+
+ul.link-list a:hover {
+  background-position: 0 100%;
+}
+
 ul.link-list li {
   height:80px;
 }
 
 h1.main-page-link {
   font-style:italic;
-  text-align: left;
+  text-align:left;
   margin:0;
-  color:#11144e;
 }

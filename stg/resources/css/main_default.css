@@ -54,6 +54,10 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 p {
   font-size:15px;
   line-height:1.2em;

@@ -42,11 +42,11 @@
     <img id="main-page-logo" src="./resources/images/logo/logo.png">
     <nav>
       <ul class="link-list">
-        <li><h1 class="main-page-link">ABOUT</h1></li>
-        <li><h1 class="main-page-link">RESUME</h1></li>
-        <li><h1 class="main-page-link">GALLERY</h1></li>
-        <li><h1 class="main-page-link">SERVICES</h1></li>
-        <li><h1 class="main-page-link">CONTACT</h1></li>
+        <a><li><h1 class="main-page-link">ABOUT</h1></li></a>
+        <a><li><h1 class="main-page-link">RESUME</h1></li></a>
+        <a><li><h1 class="main-page-link">GALLERY</h1></li></a>
+        <a><li><h1 class="main-page-link">SERVICES</h1></li></a>
+        <a><li><h1 class="main-page-link">CONTACT</h1></li></a>
       </ul>
     </nav>
   </section>
