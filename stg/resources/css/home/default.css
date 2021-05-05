@@ -21,10 +21,11 @@ ul.link-list {
 
 ul.link-list li {
   height:80px;
-  color:#06071a;
 }
 
 h1.main-page-link {
   font-style:italic;
   text-align: left;
+  margin:0;
+  color:#11144e;
 }
