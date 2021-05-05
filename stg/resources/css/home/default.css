@@ -1,7 +1,15 @@
 section#main-page-nav {
-  display:flex;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  height: 500px;
+}
+
+img#main-page-logo {
+  width:200px;
 }
 
 ul.link-list {
@@ -11,7 +19,11 @@ ul.link-list {
   justify-content:flex-start;
 }
 
-h1.main-page-link {
+ul.link-list li {
+  height:80px;
   color:#06071a;
+}
+
+h1.main-page-link {
   font-style:italic;
 }

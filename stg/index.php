@@ -39,7 +39,7 @@
 <body>
 
   <section id="main-page-nav">
-    <img id="cons-logo" src="./resources/images/logo/logo.png">
+    <img id="main-page-logo" src="./resources/images/logo/logo.png">
     <nav>
       <ul class="link-list">
         <li><h1 class="main-page-link">ABOUT</h1></li>
