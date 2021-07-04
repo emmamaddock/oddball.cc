@@ -2,13 +2,71 @@
 <html>
 
 <head>
-  
+
   <meta charset="utf-8">
   <meta lang="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Recipe Search</title>
 
   <link rel="stylesheet" type="text" href="./main.css">
+
+  <script>
+        // define the callAPI function that takes a first name and last name as parameters
+        //TODO: add category argument
+        var callAPI = (searchString,searchCategory)=>{
+
+            //cleaning search term for security
+            cleanSearchString = escapeHtml(searchString);
+
+            // instantiate a headers object
+            var myHeaders = new Headers();
+
+            // add content type header to object
+            myHeaders.append("Content-Type", "application/json");
+
+            // using built in JSON utility package turn object to string and store in a variable
+            var raw = JSON.stringify({"searchString":cleanSearchString,"searchCategory":searchCategory});
+
+            // create a JSON object with parameters for API call and store in a variable
+            var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: raw,
+                redirect: 'follow'
+            };
+            // make API call with parameters and use promises to get response
+            fetch("https://qbpfdu3l78.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
+            .then(response => response.text())
+            .then(result => alert(JSON.parse(result).body))
+            .catch(error => console.log('error', error));
+
+            //populateResults(result);
+
+            alert(JSON.parse(result).body)
+        }
+        /*
+        function populateResults(result) {
+
+
+
+        }*/
+
+        //credit to user Kip on StackOverflow
+        //to improve security and prevent injection attacks
+        function escapeHtml(text) {
+          var map =
+          {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#039;'
+          };
+
+          return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+
+    </script>
 
 </head>
 
@@ -18,16 +76,39 @@
     <h1>Recipe Search</h1>
     <p>Hi. Welcome to recipe search. Search for recipes.</p>
     <div id="recipe-bar-container">
-      <form method="POST"> <!-- TODO: add  method="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]?> to integrate php -->
-        <input type="text" id="query" name="search-query" size="40" placeholder="Type a recipe name here...">
-        <input type="submit" value="Search">
+      <form> <!-- TODO: add  method="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]?> to integrate php -->
+        <input type="text" id="query" name="search-query" size="40" placeholder="Type what you're searching for here...">
+        <input list="categories" name="category" id="category" placeholder="Search By">
+        <datalist id="categories">
+          <option value="All">
+          <option value="Name">
+          <option value="Author">
+        </datalist>
+        <input type="submit" value="Search" onclick="callAPI(document.getElementById('query').value,document.getElementById('categories').value)">
       </form>
     </div>
+    <p><small>
+      Recommended searches (test cases used in Lambda):
+      <ul>
+          <li>Search term: Cookie, Category: Name</li>
+          <li>Search term: Broke Student, Category: Author</li>
+          <li>Search term: Shrimp, Category: All</li>
+      </ul>
+    </small></p>
   </section>
 
   <!-- the results portion of the page-->
   <section class="results">
     <h1>Results</h1>
+    <!--<div>
+      <h2></h2>
+      <img>
+      <p></p>
+      <ul>
+        <li></li>
+      </ul>
+    </div>-->
+
   </section>
 
 </body>
