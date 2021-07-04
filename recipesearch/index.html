@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -16,7 +17,7 @@
     <p>Hi. Welcome to recipe search. Search for recipes.</p>
     <div id="recipe-bar-container">
       <form method="POST"> <!-- TODO: add  method="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]?> to integrate php -->
-        <input type="text" id="query" name="search-query" placeholder="Type a recipe name here...">
+        <input type="text" id="query" name="search-query" size="40" placeholder="Type a recipe name here...">
         <input type="submit" value="Search">
       </form>
     </div>
