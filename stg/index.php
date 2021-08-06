@@ -38,6 +38,9 @@
 
 <body>
 
+  <section id="slideshow">
+  </section>
+
   <section id="main-page-nav">
     <img id="main-page-logo" src="./resources/images/logo/logo.png">
     <nav>
